@@ -1,0 +1,25 @@
+.container {
+  width: 500px;
+  height: 200px;
+  outline: none;
+
+  position: absolute;
+  top: 20%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+
+.btn {
+  width: 100px;
+  height: 60px;
+  background-color: bisque;
+  border-radius: 15%;
+  cursor: pointer;
+  box-shadow: 6px 6px 2px 1px rgba(0, 0, 255, 0.2);
+
+  font-size: 30px;
+}
+
+.btn:not(:last-child) {
+  margin: 30px;
+}
